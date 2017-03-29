@@ -3,7 +3,7 @@ Edited and Improved by Mehrpouya
 
 ## Install
 ```bash
-git clone https://github.com/TABCHI/tabchi.git && cd tabchi && chmod 777 install.sh && chmod 777 telegamer.sh && ./install.sh && lua creator.lua
+git clone https://github.com/tabchis/tabchi.git && cd tabchi && chmod 777 install.sh && chmod 777 telegamer.sh && ./install.sh && lua creator.lua
 ```
 ## Create a bot!
 ```
