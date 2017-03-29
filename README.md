@@ -1,5 +1,5 @@
 # Tabchi V1.0
-Edited and Improved by Mehrpouya
+Edited and Improved by te1egamer
 
 ## Install
 ```bash
