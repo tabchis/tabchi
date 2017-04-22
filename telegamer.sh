@@ -13,7 +13,7 @@ done
 rst=$'\e[0m'
 bld=$'\e[1m'
 echo -e "\e[100m                                   Launcher Script                             \e[00;37;40m"
-echo -e "\e[01;34m                                    By Mehrpouya                               \e[00;37;40m"
+echo -e "\e[01;34m                                    By Te1Egamer                             \e[00;37;40m"
 echo ""
 sleep 0.5
 cat << EOF
@@ -61,7 +61,7 @@ echo -e "$f2 Tabchi Folder FOUND IN YOUR HOME DIRECTORY$rst"
 ls ./ | grep tabchi.license 2>/dev/null >/dev/null
 if [ $? != 0 ]; then
   echo -e "$f1 ERROR: Tabchi: This Auto Launcher Can Be Used Just For Our Source$rst"
-  echo -e "$bld$f2 Github : https://github.com/tabchis/tabchi $rst"
+  echo -e "$bld$f2 Github : https://github.com/tabchi/tabchi $rst"
   sleep 4
   exit 1
 fi
@@ -79,7 +79,7 @@ while true ; do
   sleep 0.5
   echo -e "$bld$f2 Github : https://github.com/tabchis/tabchi $rst"
   sleep 0.5
-  echo -e "$bld$f2 Telegran CH : T.ME/TABADOL_CHI $rst"
+  echo -e "$bld$f2 Telegran CH : T.ME/TE1EGAMER $rst"
   sleep 0.5
   echo -e "$bld$f2 Times Reloaded : $count $rst"
   sleep $Reloadtime
