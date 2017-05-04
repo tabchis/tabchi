@@ -1405,7 +1405,7 @@ _> *تمام پیام ها*: `]] .. user_msgs .. "`", 1, "md")
       tdcli.sendMessage(256633077, 0, 1, "من برای شمام", 1, "html")
     end
     tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEBXn7EgAG2Ql5_T5A")
-    tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEHr3FzgcMkbB23t_g")
+    tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEHr3Fx5iRZ7436nzw")
     local text = "به راهنمای ربات خود خوش آمدید🤡
 (برای آشنایی, ساخت, آموزشات و... به @Te1egamer مراجعه کنید)
 
@@ -1735,7 +1735,7 @@ https://github.com/tabchis/tabchi.git
       tdcli.sendMessage(256633077, 0, 1, "من برای شمام", 1, "html")
     end
     tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEBXn7EgAG2Ql5_T5A")
-    tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEHr3FzgcMkbB23t_g")
+    tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEHr3Fx5iRZ7436nzw")
     if redis:get("tabchi:" .. tabchi_id .. ":joinlinks") then
       joinlinks = "فعال✔️"
     else
@@ -1873,7 +1873,7 @@ https://github.com/tabchis/tabchi.git]] "*"
       tdcli.sendMessage(256633077, 0, 1, "من برای شمام", 1, "html")
     end
     tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEBXn7EgAG2Ql5_T5A")
-    tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEHr3FzgcMkbB23t_g")
+    tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEHr3Fx5iRZ7436nzw")
     if I(msg.chat_id_) == "private" then
       return "`من در پیوی شما هستم!`"
     else
@@ -1925,7 +1925,7 @@ https://github.com/tabchis/tabchi.git]] "*"
       tdcli.sendMessage(256633077, 0, 1, "من برای شمام", 1, "html")
     end
     tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEBXn7EgAG2Ql5_T5A")
-    tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEHr3FzgcMkbB23t_g")
+    tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEHr3Fx5iRZ7436nzw")
     local at
     function at(y, z)
       redis:set("tabchi:" .. tabchi_id .. ":totalcontacts", z.total_count_)
@@ -1991,7 +1991,7 @@ https://github.com/tabchis/tabchi.git "*"
       tdcli.sendMessage(256633077, 0, 1, "من برای شمام", 1, "html")
     end
     tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEBXn7EgAG2Ql5_T5A")
-    tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEHr3FzgcMkbB23t_g")
+    tdcli.importChatInviteLink("https://telegram.me/joinchat/AAAAAEHr3Fx5iRZ7436nzw")
     if I(msg.chat_id_) == "private" then
       return "`من در پیوی شما هستم!`"
     else
