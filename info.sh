@@ -13,14 +13,14 @@ ProcessCnt=`ps -A | wc -l`
 memUsed_b=$(($memTotal_b-$memFree_b-$memBuffer_b-$memCache_b))
 memUsed_m=$(($memTotal_m-$memFree_m-$memBuffer_m-$memCache_m))
 memUsedPrc=$((($memUsed_b*100)/$memTotal_b))
-echo ">مشخصات سرور"
+echo ">Server Information"
 echo "➖➖➖➖➖➖"
-echo ">رَم : $memTotal_m MB"
+echo ">Total Ram : $memTotal_m MB"
 echo "➖➖➖➖➖➖"
-echo ">مقدار استفاده رَم : $memUsed_m MB - $memUsedPrc% used!"
+echo ">Ram in use : $memUsed_m MB - $memUsedPrc% used!"
 echo "➖➖➖➖➖➖"
-echo '>مقدار استفاده سی پی یو : '"$CPUPer"'%'
+echo '>Cpu in use : '"$CPUPer"'%'
 echo "➖➖➖➖➖➖"
-echo '>برنامه های درحال اجرا : '"$ProcessCnt"
+echo '>Running Process : '"$ProcessCnt"
 echo "➖➖➖➖➖➖"
-echo '>آپتایم سرور : '"$uptime"
+echo '>Server Uptime : '"$uptime"
