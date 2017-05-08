@@ -1,32 +1,31 @@
 # Tabchi V1.0
-Edited and Improved by te1egamer
+ادیت شده توسط تله گیمر
 
-## Install
+## نحوه نصب
 ```bash
 git clone https://github.com/tabchis/tabchi.git && cd tabchi && chmod 777 install.sh && chmod 777 telegamer.sh && ./install.sh && lua creator.lua
 ```
-## Create a bot!
+## ساخت ربات!
 ```
 lua creator.lua
 Auto Detected Tabchi ID : 0
-Enter Full Sudo ID : id9raqami tel
+Enter Full Sudo ID : شناسه خودتان
 Done!
 New Tabchi Created...
 ID : 0
-Full Sudo : id9raqmi tel
+Full Sudo : شناسه شما
 Run : ./tabchi-0.sh
 ```
-Enter your telegram id in "Full Sudo ID" part
+شما میتوانید شناسه عددی خودرا از @USERinfoBot در تلگرام دریافت کنید
 
-## Run
-Use `./tabchi-ID.sh` to run your bot normaly or use `screen ./tabchi-ID.sh` for auto launch mode (put tabchi-id in ID part)
+## راه اندازی
+برای راه اندازی دستور 
+./tabchi-id.sh
+دریافت کردید بزنید(Auto Detected Tabchi ID)ایدی که در قسمت(id)را باید بزنید که به جای
 
-## Autolaunch
-use `./telegamer.sh ` for Autolaunch
+## روشن بودن خودکار
+برای اتو لانج یا روشن بودن خودکار دستور زیر را وارد کنید در پوشه تبچی
+./telegamer.sh
 
-## Developer
-
-(https://telegram.me/te1egamer_shh)
-
-### Powered by [TeleGamer](https://telegram.me/te1egamer)
+#### channel      [te1egamer](https://telegram.me/te1egamer)
 

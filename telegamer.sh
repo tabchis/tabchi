@@ -13,7 +13,7 @@ done
 rst=$'\e[0m'
 bld=$'\e[1m'
 echo -e "\e[100m                                   Launcher Script                             \e[00;37;40m"
-echo -e "\e[01;34m                                    By Te1Egamer                             \e[00;37;40m"
+echo -e "\e[01;34m                                    By TE(1)Egamer                               \e[00;37;40m"
 echo ""
 sleep 0.5
 cat << EOF
@@ -38,10 +38,6 @@ sleep 1.5
     echo -e "\e[01;34m Script Reload In Every $Reloadtime Seconds\e[00;37;40m"
     echo -e "\e[01;34m Number Of Screens Running : $SCREENNUM\e[00;37;40m"
     echo -e "\e[01;34m Number Of Tmux Running : $TMUXNUM\e[00;37;40m"
-sudo service tor start
-sudo service openvpn start
-export http_proxy="socks5://127.0.0.1:9150"
-export https_proxy="socks5://127.0.0.1:9150"
 sleep 3.5
 cat << EOF
  $bld$f1▄ ▀▄   ▄▀ ▄   $f2 ▄▄▄████▄▄▄    $f3  ▄██▄     $f4▄ ▀▄   ▄▀ ▄   $f5 ▄▄▄████▄▄▄    $f6  ▄██▄  $rst
@@ -79,7 +75,7 @@ while true ; do
   sleep 0.5
   echo -e "$bld$f2 Github : https://github.com/tabchis/tabchi $rst"
   sleep 0.5
-  echo -e "$bld$f2 Telegran CH : T.ME/TE1EGAMER $rst"
+  echo -e "$bld$f2 Telegram  : T.ME/Te1egamer $rst"
   sleep 0.5
   echo -e "$bld$f2 Times Reloaded : $count $rst"
   sleep $Reloadtime
