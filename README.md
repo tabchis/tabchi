@@ -8,12 +8,12 @@ git clone https://github.com/tabchis/tabchi.git && cd tabchi && chmod 777 instal
 ## ساخت ربات!
 ```
 lua creator.lua
-Auto Detected Tabchi ID : 0
-Enter Full Sudo ID : شناسه خودتان
+Auto Detected Tabchi ID : 288506241
+Enter Full Sudo ID :288506241
 Done!
 New Tabchi Created...
 ID : 0
-Full Sudo : شناسه شما
+Full Sudo :288506241
 Run : ./tabchi-0.sh
 ```
 شما میتوانید شناسه عددی خودرا از @USERinfoBot در تلگرام دریافت کنید
